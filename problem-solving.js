@@ -3,7 +3,7 @@ function Celsius(n) {
     return n * 1.8 + 32;
 }
 let celsiusToFahrenheit = Celsius(30);
-// console.log(celsiusToFahrenheit)
+console.log(celsiusToFahrenheit)
 
 // Create a function that will convert from Fahrenheit to Celsius?
 function Fahrenheit(n) {
@@ -11,7 +11,7 @@ function Fahrenheit(n) {
 }
 
 let fahrenheitToCelsius = Fahrenheit(105);
-// console.log(fahrenheitToCelsius);
+console.log(fahrenheitToCelsius);
 
 //   Calculate the sum of numbers in an array of numbers?
 
@@ -24,7 +24,7 @@ function sumArray(arr) {
 }
 let arr = [43, 454, 54, 45, 543, 435, 543, 52, 355, 67, 45, 536, 54];
 let total = sumArray(arr);
-// console.log(total);
+console.log(total);
 
 // Calculate the average of the numbers in an array of numbers?
 
@@ -38,7 +38,7 @@ function avg(ar) {
 }
 let ar = [345, 54, 55, 46, 84, 877, 4, 76, 34, 78, 434];
 let all = avg(ar);
-// console.log(all);
+console.log(all);
 
 // Create a function that receives an array of numbers and returns an array containing only the positive numbers
 
@@ -56,7 +56,7 @@ function positiveNum(array) {
 };
 let array = [-5, 10, -3, 12, -9, 5, 90, 0, 1];
 let arr2 = positiveNum(array);
-// console.log(arr2);
+console.log(arr2);
 
 // Miles to Kilomitar
 
@@ -66,7 +66,7 @@ function Kilomitar(miles) {
 };
 const myMiles = 454;
 const milesToKm = Kilomitar(myMiles);
-// console.log(milesToKm)
+console.log(milesToKm)
 
 // Write a function that will take hour as the input parameter and will
 // convert it into minutes and will return the result in minutes.
@@ -76,7 +76,7 @@ function hoursToMinutes(hours) {
     return min;
 }
 const total2 = hoursToMinutes(220);
-// console.log(total2); //output 13200;
+console.log(total2); //output 13200;
 
 // Write a function findLeapYear() that will take the array
 // [2023,2024,2025,2028,2030] as the input parameter and will check if
@@ -94,7 +94,7 @@ function findLeapYear(years) {
 };
 let years = [2023, 2024, 2025, 2028, 2030];
 const leap = findLeapYear(years);
-// console.log(leap);
+console.log(leap);
 
 //Write a function findOddSum() that will take the array [5, 7, 8, 10, 45, 30]
 // as the input parameter and will return the sum of the odd numbers.
