@@ -45,7 +45,28 @@ make_avg(432, 54, 433);
 
 function odd_even(e) {
     for (let i = 0; i < e; i+=2){
-        console.log(i);
+        // console.log(i);
     }
 }
 odd_even(23);
+
+//Find the lowest number in array:
+function lowestNumber(arr) {
+    let smallNum = arr[0];
+    for (let i = 0; i < arr.length; i++){
+        let element = arr[i];
+        if (element < smallNum) {
+            smallNum = element;
+        }
+    }
+    return smallNum;
+}
+const num = [23, 43, 234, 3, 5, 10, 65, 77, 67, 7685, 363];
+const lowest = lowestNumber(num);
+// console.log(lowest);
+const nayoks = ['bangla bai', ' English bai', ' turkish bai'];
+let sum = 0;
+for (let i = 0; i <= 3; i++) {
+    sum += i;
+}
+console.log(sum)

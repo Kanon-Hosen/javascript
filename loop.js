@@ -51,20 +51,7 @@ for (var i = 0; i < arr.length; i++) {
     // console.log(arr[i])
 }
 
-function print(a, b, c){
-    return a+2;
-    return a*b;
-    return b*c+a;
-  }
-// console.log(print(1, 2, 3));
-// for (let i = 5; i < 10; i = 1 + 2){
-    
-// }
-if (false) {
-    console.log("hello")
-}
-
-let a = 5;
-if (item => 50) {
-    
-}
+const number = -78; 
+number = 58;
+const answer = Math.abs(number); 
+console.log(answer);

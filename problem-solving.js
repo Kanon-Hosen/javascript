@@ -111,3 +111,13 @@ function findOddSum(num) {
 let num = [5, 7, 8, 10, 45, 30];
 let oddnum = findOddSum(num);
 console.log(oddnum);
+
+
+let arr4 = [43, 54, 676, 6465, 56, 56, 788, 435, 9, 45, 87965, 8989, 78, 987];
+let arr5 = [];
+for (let i = 0; i < arr4.length; i++){
+    if (arr4[i] > 80) {
+        arr5.push(arr4[i])
+    }
+}
+console.log(arr5)
